@@ -1,14 +1,13 @@
 import React from "react";
-import { ChakraProvider } from "@chakra-ui/react";
-import { Button, Input } from "@chakra-ui/react";
+import './App.scss'
+import SearchView from "./components/SearchView";
+import Header from "./components/Header";
 
 const App = () => {
-    return(
-    <ChakraProvider>
-        <Input placeholder="Ingrese su nombre" />
-        <Button colorScheme="blue">Enviar</Button>
-        hello
-    </ChakraProvider>
+    return (<div>
+        <Header></Header>
+        <SearchView></SearchView>
+    </div>
     )
 };
 

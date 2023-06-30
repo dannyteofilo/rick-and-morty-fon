@@ -28,9 +28,18 @@ module.exports = {
                 use: ["style-loader", "css-loader", "sass-loader"],
             },
             {
-                test: /\.(png|woff|woff2|eot|ttf|svg)$/, // to import images and fonts
-                loader: "url-loader",
-                options: { limit: false },
+                test: /\.(png|jpg|jpeg|gif|svg)$/,
+                use: [
+                    {
+                        loader: 'url-loader',
+                        options: {
+                            limit: 8192,
+                            name: '[name].[hash:8].[ext]',
+                            outputPath: 'images',
+                            publicPath: 'images',
+                        },
+                    },
+                ],
             },
         ],
     },

@@ -15,9 +15,14 @@
     "@chakra-ui/react": "^2.7.1",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
+    "@reduxjs/toolkit": "^1.9.5",
+    "autoprefixer": "^10.4.14",
+    "axios": "^1.4.0",
     "framer-motion": "^10.12.17",
+    "postcss": "^8.4.24",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.22.5",
@@ -25,6 +30,7 @@
     "@babel/preset-react": "^7.22.5",
     "babel-loader": "^9.1.2",
     "css-loader": "^6.8.1",
+    "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.5.3",
     "sass": "^1.63.6",
     "sass-loader": "^13.3.2",
