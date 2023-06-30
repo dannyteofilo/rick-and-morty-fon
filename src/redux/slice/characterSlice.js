@@ -2,7 +2,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
 export const searchCharacter = createAsyncThunk('character/searchCharacters', async (query) => {
-    const response = await axios.get(`http://localhost:8080/api/search?q=${query}`);
+    const response = await axios.get(`https://server-rick-production.up.railway.app/api/search?q=${query}`);
     return response.data;
 });
 
