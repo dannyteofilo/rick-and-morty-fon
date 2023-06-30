@@ -1,7 +1,6 @@
 # rick-and-morty-fon
-# Rick and Morty Fan
 
-¡Bienvenido a Rick and Morty Fan! Esta es una aplicación web para los fanáticos de la serie Rick and Morty.
+¡Bienvenido a Rick and Morty Fon! Esta es una aplicación web para los fanáticos de la serie Rick and Morty.
 
 ## Descripción
 
