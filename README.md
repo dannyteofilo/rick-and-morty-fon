@@ -8,7 +8,7 @@ Rick and Morty Fan es una aplicación que te permite explorar información sobre
 
 ## Demo
 
-Puedes ver una demostración en vivo de la aplicación [aquí](https://rick-and-morty-fan-demo.com).
+Puedes ver una demostración en vivo de la aplicación [aquí](https://dannyteofilo.github.io/rick-and-morty-fon/).
 
 ## Características
 
